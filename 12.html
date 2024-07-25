@@ -19,11 +19,10 @@
     let keyCount=0
 
     const addTodo=()=>{
-        if (input.value.trim()===") {
+        if (input.value.trim()==='') {
               alert('할 일을 입력해주세요')
                return
-            }
-
+        }
          const item=document.createElement('div')
          const checkbox=document.createElement('input')
          const text=document.createElement('span')
